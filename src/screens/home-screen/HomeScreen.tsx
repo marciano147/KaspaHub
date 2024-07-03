@@ -1,5 +1,4 @@
 import React, { FC, useEffect, useState } from 'react';
-import { getKasMarketCap, getKasPrice } from '../../DAL/server-requests/KasInfoDAL';
 import { HomeScreenLayout } from './HomeScreenLayout';
 import Header from '../../components/header/Header';
 import { MainTitle } from '../../components/main-titile/MainTitle';
@@ -17,6 +16,8 @@ import { CardCarousel } from '../../components/carousel/Carousel';
 interface HomeScreenProps {
     darkMode: boolean;
     toggleDarkMode: () => void;
+    kasPrice: number | null;
+    kasMarketCap: number | null;
 }
 
 const filterOptions = [
@@ -29,20 +30,9 @@ const filterOptions = [
 ];
 
 export const HomeScreen: FC<HomeScreenProps> = (props) => {
-    const { darkMode, toggleDarkMode } = props;
-    const [kasPrice, setKasPrice] = useState<number | null>(null);
-    const [kasMarketCap, setKasMarketCap] = useState<number | null>(null);
+    const { darkMode, toggleDarkMode, kasMarketCap, kasPrice } = props;
     const [cards, setCards] = useState(allApps);
     const [filterCategory, setFilterCategory] = useState('all');
-
-    useEffect(() => {
-        getKasPrice().then((response) => {
-            setKasPrice(response);
-        });
-        getKasMarketCap().then((response) => {
-            setKasMarketCap(response);
-        });
-    }, []);
 
     useEffect(() => {
         const selectedOption = filterOptions.find((option) => option.value === filterCategory);

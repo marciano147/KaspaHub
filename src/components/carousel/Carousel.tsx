@@ -1,4 +1,4 @@
-import React, { FC, useRef } from 'react';
+import React, { FC, useEffect, useRef } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { ItemCardComponent } from '../item-card/ItemCard';
@@ -42,10 +42,9 @@ const responsive = {
     },
 };
 
-export const CardCarousel: FC<CardCarouselProps> = ({ cards, darkMode }) => {
+export const CardCarousel: FC<CardCarouselProps> = ({ cards }) => {
     const carouselRef1 = useRef<Carousel>(null);
     const carouselRef2 = useRef<Carousel>(null);
-    const theme = darkMode ? 'dark' : 'light';
     const handleNext = () => {
         if (carouselRef1.current) (carouselRef1.current as any).next();
         if (carouselRef2.current) (carouselRef2.current as any).next();
@@ -55,6 +54,13 @@ export const CardCarousel: FC<CardCarouselProps> = ({ cards, darkMode }) => {
         if (carouselRef1.current) (carouselRef1.current as any).previous();
         if (carouselRef2.current) (carouselRef2.current as any).previous();
     };
+
+    useEffect(() => {
+        if (carouselRef1.current && carouselRef2.current) {
+            carouselRef1.current.goToSlide(0, false);
+            carouselRef2.current.goToSlide(0, false);
+        }
+    }, [cards]);
 
     return (
         <CarouselContainer>
@@ -106,7 +112,7 @@ export const CardCarousel: FC<CardCarouselProps> = ({ cards, darkMode }) => {
                     />
                 ))}
             </Carousel>
-            <CustomButtonGroup theme={theme} next={handleNext} previous={handlePrevious} />
+            <CustomButtonGroup next={handleNext} previous={handlePrevious} />
         </CarouselContainer>
     );
 };

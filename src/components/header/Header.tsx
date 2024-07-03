@@ -15,13 +15,11 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = (props) => {
     const { kasPrice, kasMarketCap, darkMode, toggleDarkMode } = props;
-    if (!kasPrice || !kasMarketCap) {
-        return <HeaderContainer>Loading...</HeaderContainer>;
-    }
-    const navigate = useNavigate(); // Initialize the navigate function
+
+    const navigate = useNavigate();
 
     const handleNavigation = (path: string) => {
-        navigate(`/${path}`); // Function to navigate to dynamic paths
+        navigate(`/${path}`);
     };
 
     const formatCurrency = (value: number): string => `$${(value / 1e9).toFixed(2)}B`;
@@ -30,6 +28,7 @@ const Header: React.FC<HeaderProps> = (props) => {
     const headerLogo = !darkMode
         ? 'https://kaspa.org/wp-content/uploads/2023/08/Kaspa-LDSP-Dark-Full-Color.svg'
         : 'https://kaspa.org/wp-content/uploads/2023/06/Kaspa-LDSP-Dark-Reverse.svg';
+
     return (
         <HeaderContainer>
             <Logo src={headerLogo} alt="Kaspa Logo" onClick={() => handleNavigation('home')} />

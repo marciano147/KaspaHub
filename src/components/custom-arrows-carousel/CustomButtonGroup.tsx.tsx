@@ -5,10 +5,9 @@ import { PrevArrow } from './PrevArrow';
 interface CustomButtonGroupProps {
     next: () => void;
     previous: () => void;
-    theme: string;
 }
 
-const CustomButtonGroup: React.FC<CustomButtonGroupProps> = ({ next, previous, theme }) => (
+const CustomButtonGroup: React.FC<CustomButtonGroupProps> = ({ next, previous }) => (
     <>
         <PrevArrow onClick={previous} />
         <NextArrow onClick={next} />

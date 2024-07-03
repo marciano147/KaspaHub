@@ -15,12 +15,17 @@ export const HeaderContainer = styled('div')({
 export const Logo = styled('img')({
     height: '5vw',
     marginRight: '20px',
+    cursor: 'pointer',
 });
 
 export const InfoSection = styled(Typography)({
     display: 'flex',
     flexDirection: 'row',
     marginRight: '2vw',
+    cursor: 'pointer',
+    '&:hover': {
+        textDecoration: 'underline',
+    },
 });
 
 export const InfoLabel = styled(Typography)({
