@@ -6,7 +6,7 @@ import { lightTheme } from './theme/LightTheme';
 import { HomeScreen } from './screens/home-screen/HomeScreen';
 import { useState } from 'react';
 import { getLocalDarkMode } from './utils/Utils';
-import { AppsScreen } from './screens/some-screen-2/AppsScreen';
+import { AppsScreen } from './screens/apps-screen/AppsScreen';
 
 const App = () => {
     const [darkMode, setDarkMode] = useState(getLocalDarkMode());

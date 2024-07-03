@@ -9,6 +9,7 @@ export const FilterContainer = styled(Box)({
 });
 
 export const FilterButton = styled(Button)({
+    fontSize: '2vh',
     margin: '0 10px',
     borderRadius: '50px', // Make buttons round
     padding: '10px 20px', // Add padding for a softer look

@@ -65,7 +65,7 @@ export const HomeScreen: FC<HomeScreenProps> = (props) => {
                 setFilterCategory={setFilterCategory}
                 filterOptions={filterOptions}
             />
-            <CardCarousel cards={cards} />
+            <CardCarousel cards={cards} darkMode={darkMode} />
             <Footer />
             <div />
         </HomeScreenLayout>

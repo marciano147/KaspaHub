@@ -12,6 +12,7 @@ interface CardCarouselProps {
         description: string;
         link: string;
     }[];
+    darkMode?: boolean;
 }
 
 const responsive = {
@@ -41,10 +42,10 @@ const responsive = {
     },
 };
 
-export const CardCarousel: FC<CardCarouselProps> = ({ cards }) => {
+export const CardCarousel: FC<CardCarouselProps> = ({ cards, darkMode }) => {
     const carouselRef1 = useRef<Carousel>(null);
     const carouselRef2 = useRef<Carousel>(null);
-
+    const theme = darkMode ? 'dark' : 'light';
     const handleNext = () => {
         if (carouselRef1.current) (carouselRef1.current as any).next();
         if (carouselRef2.current) (carouselRef2.current as any).next();
@@ -105,7 +106,7 @@ export const CardCarousel: FC<CardCarouselProps> = ({ cards }) => {
                     />
                 ))}
             </Carousel>
-            <CustomButtonGroup next={handleNext} previous={handlePrevious} />
+            <CustomButtonGroup theme={theme} next={handleNext} previous={handlePrevious} />
         </CarouselContainer>
     );
 };
