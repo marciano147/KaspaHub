@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ChangeNOW",
+    "link": "https://changenow.io/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Swap service for trading KAS."
+  },
+  {
+    "name": "RX Swap",
+    "link": "https://rx-swap.io",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Swap service for trading KAS."
+  },
+  {
+    "name": "StealthEX",
+    "link": "https://stealthex.io",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Swap service for trading KAS."
+  },
+  {
+    "name": "SimpleSwap",
+    "link": "https://simpleswap.io/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Swap service for trading KAS."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Chainge",
+    "link": "https://www.chainge.finance",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A cross-chain liquidity aggregator and bridge protocol."
+  },
+  {
+    "name": "OneKey",
+    "link": "https://onekey.so",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "An open-source crypto wallet trusted by millions."
+  },
+  {
+    "name": "Tangem",
+    "link": "https://tangem.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Secure storage for your crypto assets, with private keys contained in a card."
+  },
+  {
+    "name": "Zelcore",
+    "link": "https://zelcore.io",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A digital asset platform to find, manage, trade, and own digital assets."
+  }
+]

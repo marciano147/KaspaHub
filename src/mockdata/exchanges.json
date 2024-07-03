@@ -1,0 +1,86 @@
+[
+  {
+    "name": "AltTrader",
+    "link": "https://www.altcointrader.co.za",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/ZAR."
+  },
+  {
+    "name": "Bitget",
+    "link": "https://www.bitget.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "BTSE",
+    "link": "https://www.btse.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "ByBit",
+    "link": "https://www.bybit.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "ByDFi",
+    "link": "https://www.bydfi.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "CoinEx",
+    "link": "https://www.coinex.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "DigiFinex",
+    "link": "https://www.digifinex.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "Exchangio",
+    "link": "https://www.exchang.io",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading all pairs."
+  },
+  {
+    "name": "Gate.io",
+    "link": "https://www.gate.io",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "KuCoin",
+    "link": "https://www.kucoin.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "LBank",
+    "link": "https://www.lbank.info",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "MEXC",
+    "link": "https://www.mexc.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/USDT."
+  },
+  {
+    "name": "Uphold",
+    "link": "https://www.uphold.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading all pairs."
+  },
+  {
+    "name": "Xeggex",
+    "link": "https://xeggex.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Exchange for trading KAS/BTC, KAS/USDT, and KAS/BNB."
+  }
+]

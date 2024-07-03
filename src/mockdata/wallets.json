@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Command Line Wallet",
+    "link": "https://github.com/kaspanet",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A command line wallet as part of the core Kaspa node software bundle."
+  },
+    {
+      "name": "Kaspa Web Wallet",
+      "link": "https://wallet.kaspanet.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A convenient web-based wallet for Kaspa."
+    },
+    {
+      "name": "Kaspium Mobile Wallets",
+      "link": "https://github.com/kaspium",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Mobile wallet application for Kaspa, available for Android devices."
+    },
+    {
+      "name": "KasVault",
+      "link": "https://kasvault.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A simple frontend interface for sending and receiving Kaspa with your hardware wallet."
+    },
+    {
+      "name": "KDX",
+      "link": "https://kdx.app",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "An intuitive desktop wallet with Kaspa full-node software."
+    }
+  ]
+  

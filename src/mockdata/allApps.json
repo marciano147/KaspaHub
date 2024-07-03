@@ -1,0 +1,218 @@
+[
+  {
+      "name": "AltTrader",
+      "link": "https://www.altcointrader.co.za",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/ZAR."
+  },
+  {
+      "name": "Bitget",
+      "link": "https://www.bitget.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "Breakeven Calculator",
+      "link": "https://kas-breakeven-calc.vercel.app",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A calculator to determine breakeven points for Kaspa mining."
+  },
+  {
+      "name": "BTSE",
+      "link": "https://www.btse.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "ByBit",
+      "link": "https://www.bybit.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "ByDFi",
+      "link": "https://www.bydfi.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "ChangeNOW",
+      "link": "https://changenow.io/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Swap service for trading KAS."
+  },
+  {
+      "name": "Chainge",
+      "link": "https://www.chainge.finance",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A cross-chain liquidity aggregator and bridge protocol."
+  },
+  {
+      "name": "CoinEx",
+      "link": "https://www.coinex.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "DigiFinex",
+      "link": "https://www.digifinex.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "Exchangio",
+      "link": "https://www.exchang.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading all pairs."
+  },
+  {
+      "name": "Gate.io",
+      "link": "https://www.gate.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "Kas Live",
+      "link": "https://kas.live/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A platform for live Kaspa network statistics and analytics."
+  },
+  {
+      "name": "KasBoard",
+      "link": "https://kasboard-mainnet.kas.pa",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A monitoring toolset for Kaspa providing in-depth network analytics."
+  },
+  {
+      "name": "Kaspa Explorer",
+      "link": "https://explorer.kaspa.org",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A utility for network metrics on the Kaspa network."
+  },
+  {
+      "name": "Kaspa FYI",
+      "link": "https://kas.fyi/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "An explorer for the Kaspa network."
+  },
+  {
+      "name": "Kaspa Graph Inspector",
+      "link": "https://kgi.kaspad.net",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A tool for visualizing the Kaspa blockchain."
+  },
+  {
+      "name": "Kaspa Merchandise",
+      "link": "https://poolpartynodes.com/product-category/kaspa-clothing-shop/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Shop for Kaspa-themed merchandise."
+  },
+  {
+      "name": "Kaspa Price Prediction",
+      "link": "https://kasping.streamlit.app",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A tool for predicting the price of Kaspa."
+  },
+  {
+      "name": "Kaspa Transaction Report Generator",
+      "link": "https://kaspa-transaction-report.vercel.app",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A tool for generating transaction reports for Kaspa."
+  },
+  {
+      "name": "Kaspa Wiki",
+      "link": "https://wiki.kaspa.org/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "The official wiki for Kaspa."
+  },
+  {
+      "name": "Kaspalytics",
+      "link": "https://www.kaspalytics.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A platform providing various Kaspa statistics and analytics."
+  },
+  {
+      "name": "KasPlex",
+      "link": "https://www.kasplex.org",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A platform for various Kaspa-related applications and tools."
+  },
+  {
+      "name": "KasTools",
+      "link": "https://kastools.com/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A suite of tools for interacting with the Kaspa network."
+  },
+  {
+      "name": "KuCoin",
+      "link": "https://www.kucoin.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "LBank",
+      "link": "https://www.lbank.info",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "MEXC",
+      "link": "https://www.mexc.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/USDT."
+  },
+  {
+      "name": "OneKey",
+      "link": "https://onekey.so",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "An open-source crypto wallet trusted by millions."
+  },
+  {
+      "name": "Rewards Calculator",
+      "link": "https://kaspacalc.net",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A calculator to estimate mining rewards for Kaspa."
+  },
+  {
+      "name": "RX Swap",
+      "link": "https://rx-swap.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Swap service for trading KAS."
+  },
+  {
+      "name": "SimpleSwap",
+      "link": "https://simpleswap.io/",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Swap service for trading KAS."
+  },
+  {
+      "name": "StealthEX",
+      "link": "https://stealthex.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Swap service for trading KAS."
+  },
+  {
+      "name": "Tangem",
+      "link": "https://tangem.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Secure storage for your crypto assets, with private keys contained in a card."
+  },
+  {
+      "name": "Uphold",
+      "link": "https://www.uphold.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading all pairs."
+  },
+  {
+      "name": "Xeggex",
+      "link": "https://xeggex.com",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "Exchange for trading KAS/BTC, KAS/USDT, and KAS/BNB."
+  },
+  {
+      "name": "Zelcore",
+      "link": "https://zelcore.io",
+      "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+      "description": "A digital asset platform to find, manage, trade, and own digital assets."
+  }
+]

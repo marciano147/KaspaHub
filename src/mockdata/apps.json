@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Breakeven Calculator",
+    "link": "https://kas-breakeven-calc.vercel.app",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A calculator to determine breakeven points for Kaspa mining."
+  },
+  {
+    "name": "Kas Live",
+    "link": "https://kas.live/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A platform for live Kaspa network statistics and analytics."
+  },
+  {
+    "name": "KasBoard",
+    "link": "https://kasboard-mainnet.kas.pa",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A monitoring toolset for Kaspa providing in-depth network analytics."
+  },
+  {
+    "name": "Kaspalytics",
+    "link": "https://www.kaspalytics.com",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A platform providing various Kaspa statistics and analytics."
+  },
+  {
+    "name": "Kaspa Explorer",
+    "link": "https://explorer.kaspa.org",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A utility for network metrics on the Kaspa network."
+  },
+  {
+    "name": "Kaspa FYI",
+    "link": "https://kas.fyi/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "An explorer for the Kaspa network."
+  },
+  {
+    "name": "Kaspa Graph Inspector",
+    "link": "https://kgi.kaspad.net",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A tool for visualizing the Kaspa blockchain."
+  },
+  {
+    "name": "Kaspa Merchandise",
+    "link": "https://poolpartynodes.com/product-category/kaspa-clothing-shop/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "Shop for Kaspa-themed merchandise."
+  },
+  {
+    "name": "Kaspa Plex",
+    "link": "https://www.kasplex.org",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A platform for various Kaspa-related applications and tools."
+  },
+  {
+    "name": "Kaspa Price Prediction",
+    "link": "https://kasping.streamlit.app",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A tool for predicting the price of Kaspa."
+  },
+  {
+    "name": "Kaspa Transaction Report Generator",
+    "link": "https://kaspa-transaction-report.vercel.app",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A tool for generating transaction reports for Kaspa."
+  },
+  {
+    "name": "Kaspa Wiki",
+    "link": "https://wiki.kaspa.org/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "The official wiki for Kaspa."
+  },
+  {
+    "name": "KasTools",
+    "link": "https://kastools.com/",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A suite of tools for interacting with the Kaspa network."
+  },
+  {
+    "name": "Rewards Calculator",
+    "link": "https://kaspacalc.net",
+    "logo": "https://kaspa.org/wp-content/uploads/2023/06/Kaspa-Icon-Dark-Green-on-Black.svg",
+    "description": "A calculator to estimate mining rewards for Kaspa."
+  }
+]
