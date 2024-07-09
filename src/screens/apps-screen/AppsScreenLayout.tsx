@@ -2,12 +2,33 @@ import { Grid } from '@mui/material';
 import { FC } from 'react';
 
 export const AppsScreenLayout: FC<any> = ({ children }) => (
-    <div style={{ display: 'flex' }}>
-        {children[0]}
-        <Grid container padding={2} spacing={1}>
-            <Grid item xs={12} sm={12} md={12} lg={12}>
-                {children[1]}
-            </Grid>
+    <Grid container padding={2} spacing={1}>
+        <Grid
+            item
+            xs={12}
+            sm={12}
+            md={12}
+            lg={12}
+            sx={{
+                '&.MuiGrid-item': {
+                    paddingTop: 0,
+                },
+            }}
+        >
+            {children[0]}
         </Grid>
-    </div>
+
+        <Grid item xs={4} sm={4} md={4} lg={4}>
+            {children[1]}
+        </Grid>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
+            {children[2]}
+        </Grid>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
+            {children[3]}
+        </Grid>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
+            {children[4]}
+        </Grid>
+    </Grid>
 );

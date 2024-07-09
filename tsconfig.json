@@ -1,6 +1,7 @@
+// 
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6", // Change to es6 to support modern JS features
     "lib": [
       "dom",
       "dom.iterable",
@@ -13,14 +14,20 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "commonjs", // Change to commonjs for Node.js compatibility
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "outDir": "./dist", // Enable output directory for compiled files
+    "rootDir": "./src", // Specify the root directory for input files
+    "typeRoots": ["./node_modules/@types"], // Ensure type definitions are included
+    "noEmit": false, // Allow emitting compiled files
     "jsx": "react-jsx"
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

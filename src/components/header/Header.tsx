@@ -3,7 +3,7 @@ import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 import NightlightRoundIcon from '@mui/icons-material/NightlightRound';
 import { IconButton, InputAdornment, TextField, Tooltip } from '@mui/material';
-import { HeaderContainer, Logo, InfoSection, InfoLabel, InfoValue } from './Header.s';
+import { HeaderContainer, Logo, InfoSection, InfoLabel, InfoValue, PageHeader } from './Header.s';
 import { useNavigate } from 'react-router-dom';
 
 interface HeaderProps {
@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = (props) => {
 
     return (
         <HeaderContainer>
-            <Logo src={headerLogo} alt="Kaspa Logo" onClick={() => handleNavigation('home')} />
+            <Logo src={headerLogo} alt="Kaspa Logo" onClick={() => handleNavigation('')} />
             <InfoSection>
                 <InfoLabel>Market Cap: </InfoLabel>
                 <InfoValue>{kasMarketCapFormatted}</InfoValue>
@@ -40,18 +40,18 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <InfoLabel>Price: </InfoLabel>
                 <InfoValue>{kasPrice}</InfoValue>
             </InfoSection>
-            <InfoSection onClick={() => handleNavigation('wallets')}>
+            <PageHeader onClick={() => handleNavigation('wallets')}>
                 <InfoLabel>Wallets</InfoLabel>
-            </InfoSection>
-            <InfoSection onClick={() => handleNavigation('faucets')}>
+            </PageHeader>
+            <PageHeader onClick={() => handleNavigation('faucets')}>
                 <InfoLabel>Faucets</InfoLabel>
-            </InfoSection>
-            <InfoSection onClick={() => handleNavigation('apps')}>
+            </PageHeader>
+            <PageHeader onClick={() => handleNavigation('apps')}>
                 <InfoLabel>Apps</InfoLabel>
-            </InfoSection>
-            <InfoSection onClick={() => handleNavigation('trade')}>
+            </PageHeader>
+            <PageHeader onClick={() => handleNavigation('trade')}>
                 <InfoLabel>Trade</InfoLabel>
-            </InfoSection>
+            </PageHeader>
             <TextField
                 type="search"
                 placeholder={'Search App'}

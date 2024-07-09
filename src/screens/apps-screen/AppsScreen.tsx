@@ -7,13 +7,23 @@ import thirdParty from '../../mockdata/thirdParty.json';
 import swaps from '../../mockdata/swaps.json';
 import { AppsScreenLayout } from './AppsScreenLayout';
 import Header from '../../components/header/Header';
+import Sidebar from '../../components/sidebar/SideBar';
+import { FilterOption } from '../../models/ResponseTypes';
 
 const dataMap = {
     apps,
     wallets: wallets.concat(thirdParty),
     trade: swaps.concat(exchanges),
 };
-
+const filters: FilterOption[] = [
+    { label: 'All', value: 'all' },
+    { label: 'Developer Tools', value: 'developer-tools' },
+    { label: 'Wallets', value: 'wallets' },
+    { label: 'Exchanges', value: 'exchanges' },
+    { label: 'Swaps', value: 'swaps' },
+    { label: 'Analytics', value: 'analytics' },
+    { label: 'Other', value: 'other' },
+];
 interface AppsScreenProps {
     darkMode: boolean;
     toggleDarkMode: () => void;
@@ -24,24 +34,22 @@ interface AppsScreenProps {
 export const AppsScreen: FC<AppsScreenProps> = (props) => {
     const { darkMode, toggleDarkMode, kasMarketCap, kasPrice } = props;
     const { type } = useParams<{ type: string }>();
-    const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
+    const [selectedFilters, setSelectedFilters] = useState<string[]>();
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredCards, setFilteredCards] = useState(dataMap[type as keyof typeof dataMap] || []);
 
-    useEffect(() => {
-        let filteredData = dataMap[type as keyof typeof dataMap] || [];
-        if (selectedFilters.length > 0) {
-            filteredData = filteredData.filter((item) =>
-                selectedFilters.some((filter) => filter === item.category),
-            );
-        }
-        if (searchQuery) {
-            filteredData = filteredData.filter((item) =>
-                item.name.toLowerCase().includes(searchQuery.toLowerCase()),
-            );
-        }
-        setFilteredCards(filteredData);
-    }, [selectedFilters, searchQuery, type]);
+    // useEffect(() => {
+    //     let filteredData = dataMap[type as keyof typeof dataMap] || [];
+    //     if (selectedFilters.length > 0) {
+    //         filteredData = filteredData.filter((item) => selectedFilters.some((filter) => filter === item.logo));
+    //     }
+    //     if (searchQuery) {
+    //         filteredData = filteredData.filter((item) =>
+    //             item.name.toLowerCase().includes(searchQuery.toLowerCase()),
+    //         );
+    //     }
+    //     setFilteredCards(filteredData);
+    // }, [selectedFilters, searchQuery, type]);
 
     const handleFilterChange = (filter: string) => {
         setSelectedFilters((prevFilters) =>
@@ -55,18 +63,18 @@ export const AppsScreen: FC<AppsScreenProps> = (props) => {
 
     return (
         <AppsScreenLayout>
+            <Header
+                darkMode={darkMode}
+                toggleDarkMode={toggleDarkMode}
+                kasMarketCap={kasMarketCap}
+                kasPrice={kasPrice}
+            />
             <Sidebar
                 filters={filters}
                 selectedFilters={selectedFilters}
                 onFilterChange={handleFilterChange}
                 searchQuery={searchQuery}
                 onSearchChange={handleSearchChange}
-            />
-            <Header
-                darkMode={darkMode}
-                toggleDarkMode={toggleDarkMode}
-                kasMarketCap={kasMarketCap}
-                kasPrice={kasPrice}
             />
         </AppsScreenLayout>
     );

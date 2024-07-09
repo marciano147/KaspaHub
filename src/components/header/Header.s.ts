@@ -10,6 +10,9 @@ export const HeaderContainer = styled('div')({
     width: '100%',
     columnGap: '10px',
     height: '7vh',
+    position: 'sticky',
+    zIndex: 1000,
+    top: 0,
 });
 
 export const Logo = styled('img')({
@@ -19,6 +22,12 @@ export const Logo = styled('img')({
 });
 
 export const InfoSection = styled(Typography)({
+    display: 'flex',
+    flexDirection: 'row',
+    marginRight: '2vw',
+});
+
+export const PageHeader = styled(Typography)({
     display: 'flex',
     flexDirection: 'row',
     marginRight: '2vw',

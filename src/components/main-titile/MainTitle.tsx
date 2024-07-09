@@ -4,9 +4,9 @@ export const MainTitle = () => (
     <TitleContainer>
         <MainHeading variant="body1">Welcome to the Kaspa Ecosystem</MainHeading>
         <SubHeading variant="subtitle2">
-            Kaspa is a leading platform in blockchain technology, providing innovative solutions for various
-            industries. Our ecosystem is designed to support a wide range of applications, ensuring security,
-            scalability, and efficiency.
+            Welcome to KaspaHub – your hub for everything Kaspa. Explore tools, news, and resources in the Kaspa
+            ecosystem. Join our community and stay updated with the latest in blockchain technology. Dive into
+            decentralized innovation of the Kaspa Ecosystem.
         </SubHeading>
     </TitleContainer>
 );

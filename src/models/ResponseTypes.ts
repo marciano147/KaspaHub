@@ -8,3 +8,8 @@ export interface KasKRC20Info {
         feeTotal: number;
     };
 }
+
+export interface FilterOption {
+    label: string;
+    value: string;
+}
